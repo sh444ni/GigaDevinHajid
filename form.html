@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML FORM</title>
+</head>
+<body>
+	<h1>Formulir Registrasi Mahasiswa</h1>
+	<form action="target.php" method="POST">
+		<label>Username</label><br />
+			<input type="text" name="username"><br />
+		<label>Password</label><br />
+			<input type="password" name="password"><br />
+			<input type="hidden" name="kode" value="100">
+		<label>Nama</label><br />
+			<input type="text" name="name"><br />
+		<label>Np HP</label><br />
+			<input type="text" name="nohp" value="62"><br />
+		<label>Jenis Kelamin</label><br />
+			<input type="radio" name="jeniskelamin" value="L"> Laki-laki
+			<input type="radio" name="jeniskelamin" value="P"> Perempuan<br />
+		<label>Hobi</label><br />
+			<input type="checkbox" name="hobi[]" value="membaca">Membaca
+			<input type="checkbox" name="hobi[]" value="berenang">Berenang<br />
+		<label>Provinsi</label><br />
+			<select name="provinsi">
+				<option value="banten">Banten</option>
+				<option value="jakarta">DKI Jakarta</option>
+				<option value="jabar">Jawa Barat</option>
+				<option value="jateng">Jawa Tengah</option>
+				<option value="jogja">DI Yogyakarta</option>
+				<option value="jatim">Jawa Timur</option>
+			</select><br />
+		<label>Alamat</label><br />
+			<textarea name="alamat"></textarea>
+		<label>Foto</label><br />
+			<input type="file" name="foto"><br />
+		<label>Tanggal Lahir</label><br />
+			<input type="date" name="tanggallahir"><br />
+		<label>Usia</label>
+			<input type="number" name="usia"><br />
+		<label>Email</label>
+			<input type="email" name="email">
+		<br /><br />
+		<input type="submit" name="submit" value="SUBMIT">
+		<input type="reset" name="reset" value="RESET">
+	</form>
+</body>
+</html>
