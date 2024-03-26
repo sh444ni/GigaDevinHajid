@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulir</h1>
+        <p1>Giga,</p1>
+        <p1>Hajid,</p1>
+        <p1>Devin,</p1>
+        <form action="PDI.php" method="post">
+            <label for="fname">Nama:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Masukkan nama Anda..">
+
+            <label for="lname">Kata Sandi:</label>
+            <input type="password" id="lname" name="lastname" placeholder="Masukkan kata sandi Anda..">
+
+            <label for="birthday">Tanggal Lahir:</label>
+            <input type="date" id="birthday" name="birthday">
+
+            <label for="opsi">Pilihan:</label>
+            <select id="opsi" name="opsi">
+              <option value="opsi1">Opsi 1</option>
+              <option value="opsi2">Opsi 2</option>
+              <option value="opsi3">Opsi 3</option>
+            </select>
+
+            <input type="submit" value="Kirim">
+        </form>
+    </div>
+</body>
+</html
