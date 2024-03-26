@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML FORM</title>
+</head>
+<body>
+	<h1>Welcome Home Warriors</h1>
+	<form action="pdi.php" method="POST">
+		<label>Name</label><br />
+			<input type="text" name="name"><br />
+		<label>Username</label><br />
+			<input type="text" name="username"><br />
+		<label>Email</label><br />
+			<input type="email" name="email"><br />
+		<label>Password</label><br />
+			<input type="password" name="password"><br />
+			<input type="hidden" name="kode" value="100">
+		<label>Age</label><br />
+			<input type="number" name="Age"><br />
+		<label>Date Of Birth</label><br />
+			<input type="date" id="birthday" name="birthday"><br/>
+		<label>Gender</label><br />
+			<input type="radio" name="Gender" value="M"> Male<br />
+			<input type="radio" name="Gender" value="F"> Female<br />
+			<input type="radio" name="Gender" value="HF"> Attack Helicopter<br />
+		<label>Adress</label><br />
+			<textarea name="Adress"></textarea><br/>
+		<label>Phone Number</label><br />
+			<input type="text" name="Phone" value="62"><br />
+		<label>Profile Picture</label><br />
+			<input type="file" name="Profile"><br />
+		<br />
+		<input type="submit" name="submit" value="SUBMIT">
+		<input type="reset" name="reset" value="RESET">
+	</form>
+</body>
+</html>
