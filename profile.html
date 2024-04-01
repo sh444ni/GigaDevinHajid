@@ -1,44 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+    <link rel="stylesheet" href="s_profile.css">
 </head>
 <body>
-  <div class="container">
-    <div class="profile-header">
-      <div class="profile-img">
-        <img src="profile.jpg" alt="Profile Picture">
-      </div>
-      <h1>John Doe</h1>
-      <h3>Web Developer</h3>
-      <div class="social-links">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      </div>
+    <div class="container">
+        <h1>PROFIL MAHASISWA</h1>
+        <div class="profile-box">
+            <div class="profile-header">
+                <h2>NIM</h2>
+                <p>2300018052</p>
+            </div>
+            <div class="profile-header">
+                <h2>Nama</h2>
+                <input type="text" id="name" value="Devin Nur Alim">
+            </div>
+            <div class="profile-header">
+                <h2>Tempat Lahir</h2>
+                <input type="text" id="birthPlace" value="KELAPA KAMPIT">
+            </div>
+            <div class="profile-header">
+                <h2>Tanggal Lahir</h2>
+                <input type="date" id="birthDate" value="2005-04-07">
+            </div>
+            <div class="profile-header">
+                <h2>NIK</h2>
+                <input type="text" id="nik" value="1906040704050001">
+            </div>
+            <div class="profile-header">
+                <h2>Email</h2>
+                <input type="email" id="email" value="2300018052@webmail.uad.ac.id">
+            </div>
+            <div class="profile-header">
+                <h2>Alamat Lengkap Asal</h2>
+                <textarea id="address">DSN AIR SAGU, RT 14/RW 007, KEL. MAYANG, KEC. KELAPA KAMPIT</textarea>
+            </div>
+            <div class="profile-header">
+                <h2>Kecamatan</h2>
+                <select id="district">
+                    <option value="">-- Pilih Kecamatan --</option>
+                    <option value="kec1">Kecamatan 1</option>
+                    <option value="kec2">Kecamatan 2</option>
+                    <option value="kec3">Kecamatan 3</option>
+                </select>
+            </div>
+            <div class="profile-header">
+                <h2>Alamat Lengkap di Jogja</h2>
+                <textarea id="addressJogja" placeholder="Masukkan alamat lengkap di Jogja"></textarea>
+            </div>
+        </div>
     </div>
-    <div class="profile-bio">
-      <p>Hi, I'm John Doe, a web developer with 5 years of experience. I specialize in building responsive and user-friendly websites using HTML, CSS, and JavaScript. I'm passionate about creating clean and modern designs that provide a great user experience.</p>
-    </div>
-    <div class="profile-info">
-      <div class="info-item">
-        <h4><i class="fas fa-map-marker-alt"></i> Location</h4>
-        <p>New York, USA</p>
-      </div>
-      <div class="info-item">
-        <h4><i class="fas fa-envelope"></i> Email</h4>
-        <p>john.doe@example.com</p>
-      </div>
-      <div class="info-item">
-        <h4><i class="fas fa-globe"></i> Website</h4>
-        <p>www.johndoe.com</p>
-      </div>
-    </div>
-  </div>
 </body>
 </html>
