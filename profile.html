@@ -3,53 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Mahasiswa</title>
+    <title>Profil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="s_profile.css">
 </head>
 <body>
     <div class="container">
-        <h1>PROFIL MAHASISWA</h1>
-        <div class="profile-box">
-            <div class="profile-header">
-                <h2>NIM</h2>
-                <p>2300018052</p>
-            </div>
-            <div class="profile-header">
-                <h2>Nama</h2>
-                <input type="text" id="name" value="Devin Nur Alim">
-            </div>
-            <div class="profile-header">
-                <h2>Tempat Lahir</h2>
-                <input type="text" id="birthPlace" value="KELAPA KAMPIT">
-            </div>
-            <div class="profile-header">
-                <h2>Tanggal Lahir</h2>
-                <input type="date" id="birthDate" value="2005-04-07">
-            </div>
-            <div class="profile-header">
-                <h2>NIK</h2>
-                <input type="text" id="nik" value="1906040704050001">
-            </div>
-            <div class="profile-header">
-                <h2>Email</h2>
-                <input type="email" id="email" value="2300018052@webmail.uad.ac.id">
-            </div>
-            <div class="profile-header">
-                <h2>Alamat Lengkap Asal</h2>
-                <textarea id="address">DSN AIR SAGU, RT 14/RW 007, KEL. MAYANG, KEC. KELAPA KAMPIT</textarea>
-            </div>
-            <div class="profile-header">
-                <h2>Kecamatan</h2>
-                <select id="district">
-                    <option value="">-- Pilih Kecamatan --</option>
-                    <option value="kec1">Kecamatan 1</option>
-                    <option value="kec2">Kecamatan 2</option>
-                    <option value="kec3">Kecamatan 3</option>
-                </select>
-            </div>
-            <div class="profile-header">
-                <h2>Alamat Lengkap di Jogja</h2>
-                <textarea id="addressJogja" placeholder="Masukkan alamat lengkap di Jogja"></textarea>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Profil Saya</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="profile-picture">
+                            <img src="https://via.placeholder.com/150" alt="Foto Profil" class="rounded-circle">
+                        </div>
+                        <div class="profile-info">
+                            <h5>Nama Lengkap</h5>
+                            <p>John Doe</p>
+                            <h5>Email</h5>
+                            <p>john.doe@example.com</p>
+                            <h5>Bio</h5>
+                            <p>Saya adalah seorang pengembang perangkat lunak yang antusias.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
