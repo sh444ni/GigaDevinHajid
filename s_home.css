@@ -14,8 +14,21 @@ header {
   color: #000000;
   padding: 10px;
   text-align: center;
-  border-top-left-radius: 10px; 
-  border-top-right-radius: 10px; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile {
+  padding: 3px;
+  border: 1px solid #21468faf;
+  background-color: #21468f7e;
+  border-radius: 10px;
+  color: #fff;
 }
 
 nav {
@@ -23,7 +36,6 @@ nav {
   color: #000000;
   padding: 10px;
   text-align: center;
-  
 }
 
 nav a {
@@ -44,5 +56,5 @@ footer {
   padding: 10px;
   text-align: center;
   border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px; 
+  border-bottom-right-radius: 10px;
 }
