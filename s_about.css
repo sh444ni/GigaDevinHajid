@@ -30,11 +30,33 @@ html {
 }
 
 .about-section {
+
   text-align: center;
-  padding: 2rem;
+  padding-left: 40rem;
+  padding-right: 40rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;   
   background-color: #21468f7e;
   color: white;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-section .home-button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 5rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.about-section .home-button:hover {
+  background-color: #555;
 }
 
 .container {
@@ -72,7 +94,7 @@ img {
 }
 
 .intro {
-  height: 80px;
+  height: 70px;
   width: 100%;
   bottom: 0;
   padding: 5px;
@@ -84,13 +106,13 @@ img {
 }
 
 h1 {
-  margin: 10px;
+  margin: 1px;
   font-size: 40px;
 }
 
 p {
   font-size: 20px;
-  margin: 20px;
+  margin: 5px;
   visibility: hidden;
   opacity: 0;
 }
