@@ -20,21 +20,31 @@ html {
 .column {
   float: left;
   width: 33.3%;
+  text-align: center;
   margin-bottom: 16px;
   padding: 0 8px;
+  
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(255, 254, 254, 0.2);
-  margin: 8px;
+  margin: 40px;
   background-color: #ffffc781;
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px; 
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; 
 }
 
 .about-section {
-  padding: 50px;
+  padding: 10px;
   text-align: center;
   background-color: #21468f7e;
   color: white;
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px; 
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; 
 }
 
 .container {
