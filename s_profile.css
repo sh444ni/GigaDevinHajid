@@ -1,5 +1,13 @@
 body {
-    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('b_profile.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
@@ -8,11 +16,12 @@ body {
 
 .card {
     border: none;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f4;
+    box-shadow: #21468f7e;
 }
 
 .card-header {
-    background-color: #343a40;
+    background-color: #21468f7e;
     color: #fff;
     text-align: center;
     padding: 20px;
