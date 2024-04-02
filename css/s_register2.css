@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
-body {
+body{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,72 +17,73 @@ body {
     background-position: center;
 }
 
-.wrapper {
-    width: 420px;
+.wrapper{
+    width: 750px;
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
-    backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    color: #fff;
+    backdrop-filter: blur(20px); /*buat nge blur kak*/
     border-radius: 10px;
-    padding: 30px 40px;
+    color: #fff;
+    padding: 40px 35px 55px; /*jarak kiri*/
+    margin: 0 10px;
 }
 
-.wrapper h1 {
+.wrapper h1{
     font-size: 36px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
-.wrapper .input-box {
-    width: 100%;
+.wrapper .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.input-box .input-field{
+    position: relative;
+    width: 48%;
     height: 50px;
-    margin: 30px 0;
+    margin: 13px 0;
 }
 
-.input-box input,
-.input-box textarea,
-.input-box select {
+.input-box .input-field input{ /*input*/
     width: 100%;
-    height: 45px;
+    height: 100%;
     background: transparent;
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 40px;
+    border: 2px solid rgba(225, 225, 225, .2);
+    outline: none;
     font-size: 16px;
     color: #fff;
-    padding: 0 20px;
-    outline: none;
-    transition: border-color 0.3s;
+    border-radius: 6px; /*corner bulat*/
+    padding: 15px 15px 15px 40px;
 }
 
-.input-box textarea {
-    height: 100%;
-}
-
-.input-box input::placeholder,
-.input-box textarea::placeholder{
-    color: #fff;
-    padding-top: 5px;
-}
-
-.input-box select::placeholder {
+.input-box .input-field input::placeholder{ /*warna sebelum diberi input*/
     color: #fff;
 }
 
-.input-box input:focus,
-.input-box textarea:focus,
-.input-box select:focus {
-    border-color: rgba(255, 255, 255, .5);
-}
-
-.input-box i {
+.input-box .input-field i{
     position: absolute;
-    right: 20px;
+    left: 15px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 20px;
 }
 
-.wrapper .btn {
+.wrapper label{
+    display: inline-block; /*gap atas bawah*/
+    font-size: 14.5px;
+    margin: 10px 0 23px;
+}
+
+.wrapper label input{
+    accent-color: #fff;
+    margin-right: 5px;
+}
+
+.wrapper .btn{
     width: 100%;
     height: 45px;
     background: #fff;
@@ -94,10 +95,10 @@ body {
     font-size: 16px;
     color: #333;
     font-weight: 600;
-    transition: background-color 0.3s, color 0.3s;
 }
 
-.wrapper .btn:hover {
-    background-color: #ccc;
-    color: #fff;
+@media (max-width: 576px){
+    .input-box .input-field{
+        width: 100%;
+    }
 }
