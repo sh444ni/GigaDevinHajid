@@ -75,7 +75,7 @@ body{
 .wrapper label{
     display: inline-block; /*gap atas bawah*/
     font-size: 14.5px;
-    margin: 10px 0 23px;
+    margin: 0 0 23px;
 }
 
 .wrapper label input{
