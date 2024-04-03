@@ -83,6 +83,33 @@ body{
     margin-right: 5px;
 }
 
+/* Address */
+.input-box .input-field textarea {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(225, 225, 225, .2);
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 15px 15px 15px 40px;
+    resize: none;
+    position: relative;
+}
+
+.input-box .input-field textarea::placeholder {
+    color: #fff;
+}
+
+.input-box .input-field i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
 .wrapper .btn{
     width: 100%;
     height: 45px;
