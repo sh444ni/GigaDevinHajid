@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.one{
+    background-color: rgb(36, 164, 138);
+}
+.two{
+    background-color: rgb(211, 79, 79);
+}
+.three{
+    background-color: rgb(67, 91, 175);
+}
+
+.product-card{
+    max-width: 12em;
+    background-color: #fff;
+    padding: 1em;
+    box-shadow: 0 5px 5px #e1e1e1;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.product-card img{
+    max-width: 100%;
+}
+
+.product-card h4{
+    font-size: 1.3em;
+    margin: 0.5em 0;
+}
+
+.product-card div{
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-card button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 1em;
+}
+
+.product-card:hover{
+    background-color: lightslategray;
+    color: #fff;
+}
+
+.product-card:hover button{
+    color: #000;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 576px){
+    .product-card{
+        font-size: 0.9em;
+    }
+}
