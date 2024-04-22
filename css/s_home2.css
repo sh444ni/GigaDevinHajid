@@ -19,7 +19,7 @@
     box-shadow: 5px 5px 20px black;
     overflow: hidden;
     position: relative;
-    border-radius: 20%;
+    border-radius: 5%;
 }
 
 img {
