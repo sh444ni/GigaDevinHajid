@@ -98,7 +98,9 @@ body{
     align-items: center;
     z-index: 100;
 }
-
+.warna{
+    color:#fff; 
+}
 .logo{
     font-size: 32px;
     color: #fff;
