@@ -12,7 +12,7 @@
 }
 
 section{
-    height: 100vh;
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,10 +82,11 @@ section{
     max-width: 15em;
     background-color: #fff;
     padding: 1em;
-    box-shadow: 0 5px 5px #e1e1e1;
+    box-shadow: 5px 5px 20px black;
     font-family: "Poppins", sans-serif;
     margin-bottom: 20px;
     margin-left: 20px;
+    border-radius: 5%; 
 }
 
 .product-card img{
@@ -119,7 +120,7 @@ section{
 }
 
 .product-card:hover{
-    background-color: lightslategray;
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
 }
 
