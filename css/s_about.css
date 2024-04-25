@@ -1,67 +1,53 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
-body {
-    font-family: "Roboto", sans-serif;
-    background-image: url('b_about.jpg');
-    background-size: cover;
-    height: 100vh;
-    color: #fff;
+body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.9em;
+    min-height: 100vh;
+    background-image: url('b_about.jpg');
 }
-
-.card{
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    height: 350px;
-    width: 250px;
-    margin-right: 3rem;
+.wrapper{
+    background: transparent;
+    backdrop-filter: blur(20px);
+    width: 580px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
 }
-
-.card:hover .gradient{
-    opacity: 1;
+h2{
+    text-align: center;
+    color: #fff;
 }
-
-.gradient{
-    position: absolute;
-    background-image: linear-gradient(0deg, #ffc733, transparent);
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: opacity 0.5s;
+hr{
+    width: 100px;
+    margin: 10px auto;
 }
-
-.info{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 2rem;
-    margin-top: 3rem;
+.members{
+    display: flex;
+    justify-content: center;
+    
+    
 }
-
-.text{
-    color: rgb(211, 211, 211);
+.team-mem{
+    margin: 8px;
 }
-
-.time{
-    position: absolute;
-    bottom: 0;
-    padding: 2rem;
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
 }
-
-.title{
-    font-size: 2.2em;
-    font-weight: 700;
+h4,p{
+    text-align: center;
+    font-size: 12px;
+    margin: 7px;
+    color: #fff;
 }
 .header{
     position: fixed;
@@ -75,7 +61,9 @@ body {
     align-items: center;
     z-index: 100;
 }
-
+.warna{
+    color:#fff; 
+}
 .logo{
     font-size: 32px;
     color: #fff;

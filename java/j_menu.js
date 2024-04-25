@@ -1,7 +1,7 @@
-const toggleBtn = document.querySelector('.toggle');
-const sidePanel = document.querySelector('.side-panel');
+const toggle = document.querySelector('.toggle');
+const navbar = document.querySelector('.navbar');
 
-toggleBtn.addEventListener('click', () => {
-    toggleBtn.classList.toggle('active');
-    sidePanel.classList.toggle('active');
+toggle.addEventListener('click', () => {
+  toggle.classList.toggle('active');
+  navbar.classList.toggle('open');
 });
