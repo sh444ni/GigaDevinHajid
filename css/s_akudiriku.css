@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    position: relative;
+}
+.banner-card{
+    position: relative; /* Menambahkan posisi relatif untuk kontainer */
+    flex-direction: row;
+    max-width: 25em;
+    background-color: #fff;
+    padding: 1em;
+    box-shadow: 5px 5px 20px black;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 5%; 
+}
+
+.banner-card img{
+    max-width: 100%;
+    margin: auto;
+    display: block; /* Membuat gambar menjadi elemen blok */
+}
+
+.banner-card h4{
+    font-size: 1.3em;
+    margin: 0.5em 0;
+    position: absolute; /* Menambahkan posisi absolut */
+    top: 50%; /* Menempatkan teks di tengah vertikal */
+    left: 50%; /* Menempatkan teks di tengah horizontal */
+    transform: translate(-50%, -50%); /* Menyesuaikan posisi teks */
+    z-index: 1; /* Menempatkan teks di atas gambar */
+    color: #fff; /* Menyesuaikan warna teks */
+}
+
+.banner-card div{
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-card button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 1em;
+}
+
+.banner-card:hover{
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.banner-card:hover button{
+    color: #000;
+    background-color: #fff;
+}

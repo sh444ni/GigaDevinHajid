@@ -67,17 +67,17 @@ section{
 }
 
 .one{
-    background-image: url('b_by_player1.jpg');
+    background-color: #535C91;
     background-size: cover;
     background-position: center;
 }
 .two{
-    background-image: url('b_by_player2.jpg');
+    background-color: #535C91;
     background-size: cover;
     background-position: center;
 }
 .three{
-    background-image: url('b_by_player3.jpg');
+    background-color: #535C91;
     background-size: cover;
     background-position: center;
 }
