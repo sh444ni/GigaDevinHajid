@@ -1,6 +1,6 @@
 :root{
-  --color-default:#004f83;
-  --color-second:#0067ac;
+  --color-default:#1B1A55;
+  --color-second:#070F2B;
   --color-white:#fff;
   --color-body:#e4e9f7;
   --color-light:#e0e0e0;
@@ -136,16 +136,6 @@ body{
 .sidebar.open input{
   width: 100%;
   padding: 0 20px 0 50px;
-}
-
-.sidebar .bx-search{
-  position: absolute;
-  top:50%;
-  left:0;
-  transform: translateY(-50%);
-  font-size: 22px;
-  background-color: var(--color-second);
-  color: var(--color-white);
 }
 
 .sidebar li a{
