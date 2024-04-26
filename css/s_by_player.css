@@ -18,6 +18,10 @@ section{
     align-items: center;
 }
 
+.hr{
+    color: red;
+}
+
 .header{
     position: fixed;
     top: 0;

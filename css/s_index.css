@@ -18,12 +18,12 @@
     box-shadow: 5px 5px 20px black;
     overflow: hidden;
     position: relative;
-    border-radius: 5px;
+    border-radius: 5%;
+    padding: 2em;
 }
 
 img {
-    height: 350px;
-    width: 350px;
+    max-width: 100%;
     object-fit: cover;
     border-radius: 3px;
     transition: .5s;
@@ -31,29 +31,21 @@ img {
 
 .intro {
     height: 70px;
-    width: 100%; 
-    bottom: 0; 
-    padding: 5px;
+    width: 100%;
+    bottom: -55px; 
+    padding: 2px;
     box-sizing: border-box;
     position: absolute;
-    background: rgba(27, 27, 27, 0.5);
-    color: white;
+    text-align: center;
+    color: #070F2B;
     transition: .5s;
+    transform: translate(-50%, -50%); 
+    left: 50%; 
 }
 
 h1 {
     margin: 10px;
-    font-size: 40px;
-}
-
-.judul{
-    text-align: center;
-}
-
-.judul h1{
-    font-size: 50px;
-    color: rebeccapurple;
-    text-align: center;
+    font-size: 30px;
 }
 
 .warna p {
@@ -69,29 +61,45 @@ span {
 
 .card:hover {
     cursor: pointer;
+    background: #1D428A;
 }
 
 .card:hover .intro {
-    height: 150px;
-    bottom: 0px; 
+    height: 130px;
+    bottom: -75px; 
     background: rgba(0, 0, 0, 0.5);
+}
+
+.card:hover h1 {
+    color: white;
 }
 
 .card:hover p {
     opacity: 1;
     visibility: visible;
+    color: white;
 }
 
 .card:hover img {
-    transform: scale(1.1) rotate(-3deg);
+    transform: scale(1.1);
 }
 
 .warna{
     color:#fff; 
 }
 
+.judul{
+    text-align: center;
+}
+
+.judul h1{
+    font-size: 40px;
+    color: #070F2B;
+    text-align: center;
+}
+
 .header{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -105,7 +113,7 @@ span {
 
 .logo{
     font-size: 32px;
-    color: #fff;
+    color: #ffc72c;
     text-decoration: none;
     font-weight: 700;
 }
@@ -113,7 +121,7 @@ span {
 .navbar a{
     position: relative;
     font-size: 18px;
-    color: #fff;
+    color: #ffc72c;
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
@@ -146,7 +154,7 @@ section{
 }
 
 .one{
-    background-color: blue;
+    background-color: #070F2B;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -157,21 +165,21 @@ section{
 .two{
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: white;
     background-size: cover;
     background-position: center;
     justify-content: center;
-    height: 78vh;
+    height: 73vh;
     align-items: center;
 }
 .three {
-    background-color: blanchedalmond;
+    background-color: white;
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 70vh;
+    height: 65vh;
 }
 
 .three .judul {
@@ -188,18 +196,21 @@ section{
 
 .roster-card {
     max-width: 15em;
-    background-color: #fff;
+    background-color: white;
     padding: 1em;
     box-shadow: 5px 5px 20px black;
     font-family: "Poppins", sans-serif;
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    border-radius: 5px; 
+    border-radius: 5%; 
+    color: #070F2B;
 }
 
 .roster-card img {
     max-width: 100%;
+    border-radius: 5%;
+    padding: 0.7em;
     height: auto;
 }
 
@@ -220,8 +231,12 @@ section{
 }
 
 .roster-card:hover {
-    background: rgba(0, 0, 0, 0.5);
+    background: #1D428A;
     color: #fff;
+}
+
+.roster-card:hover img {
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 576px) {
