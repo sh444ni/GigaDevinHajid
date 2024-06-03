@@ -80,6 +80,26 @@
 
     </div>
 
+    <script>
+        document.getElementById('registerForm').addEventListener('submit', function(event) {
+            var age = document.getElementById('age').value;
+            var phoneNumber = document.getElementById('phoneNumber').value;
+
+            if (age < 18) {
+                alert('You must be at least 18 years old to register.');
+                event.preventDefault();
+                return;
+            }
+
+            var phoneNumberPattern = /^\d+$/;
+            if (!phoneNumberPattern.test(phoneNumber)) {
+                alert('Phone number must contain only numbers.');
+                event.preventDefault();
+                return;
+            }
+        });
+    </script>
+
 </body>
 
 
