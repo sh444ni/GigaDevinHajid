@@ -42,6 +42,18 @@ section{
     background-position: center;
     height: 75vh;
 }
+.four{
+    background-color: #535C91;
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+.five{
+    background-color: #535C91;
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
 
 .product-container {
     display: flex;
