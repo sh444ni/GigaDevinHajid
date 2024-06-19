@@ -3,7 +3,7 @@
 
         <nav class="navbar">
             <a href="./about.html">About</a>       
-            <a href="./login.html">Login</a>
+            <a href="./login.php">Login</a>
         </nav>
 
         <div class="sidebar">

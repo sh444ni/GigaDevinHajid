@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 :root {
     --white: #fff;
-    --light: #eeeded;
+    --light: #eeededaf ;
     --orange: #1D428A;
 }
 
 body {
-    background-color: var(--orange);
+    background: url('b_login.jpg') no-repeat;
     font-family: system-ui;
     overflow: hidden;
 }
