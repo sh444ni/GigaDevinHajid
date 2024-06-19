@@ -1,5 +1,5 @@
 <header class="header">
-        <a href="https://www.youtube.com/watch?v=Iq4Ur-7RIY4" class="logo">GSW</a>
+        <a href="index.php" class="logo">GSW</a>
 
         <nav class="navbar">
             <a href="./about.html">About</a>       
@@ -14,7 +14,7 @@
             </div>
             <ul class="nav-list">
               <li>
-                <a href="./index.html">
+                <a href="./index.php">
                   <i class='bx bx-home'></i>
                   <span class="link_name">Home</span>
                 </a>
@@ -45,21 +45,21 @@
               </li>
               <hr>
               <li>
-                <a href="./champ.html">
+                <a href="./champ.php">
                   <i class='bx bxs-t-shirt'></i>
                   <span class="link_name">'21-'22 Champions</span>
                 </a>
                 <span class="tooltip">'21-'22 Champions</span>
               </li>
               <li>
-                <a href="./jersey.html">
+                <a href="./jersey.php">
                   <i class='bx bxs-t-shirt'></i>
                   <span class="link_name">Jerseys</span>
                 </a>
                 <span class="tooltip">Jerseys</span>
               </li>
               <li>
-                <a href="by_player.html">
+                <a href="by_player.php">
                   <i class='bx bxs-t-shirt'></i>
                   <span class="link_name">By Player</span>
                 </a>
