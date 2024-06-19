@@ -11,9 +11,8 @@
 </head>
 <body>
 
-<?php include 'header.php';
-
-
+<?php 
+include 'header.php';
 ?>
     <div class="container">
 
@@ -118,6 +117,8 @@
         </section>    
     </div>
     
-  <script src="./js/j_menu.js"></script>
 </body>
+<?php 
+include 'footer.php';
+?>
 </html>
