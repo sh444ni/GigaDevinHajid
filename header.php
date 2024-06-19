@@ -37,7 +37,7 @@
               </li>
               <hr>
               <li>
-                <a href="#">
+                <a href="./kranjang.php">
                   <i class="bx bx-cart-alt"></i>
                   <span class="link_name">Order</span>
                 </a>
