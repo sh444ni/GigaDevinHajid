@@ -41,7 +41,7 @@ include 'header.php';
 
             <div class="card-menu">
                 <div class="card">
-                <a class="warna" href="./champ.html">
+                <a class="warna" href="./champ.php">
                     <img src="img/champ2.jpg" alt="">
                     <div class="intro">
                         <h1>'21-'22 Champs</h1>
@@ -50,7 +50,7 @@ include 'header.php';
                     </a>
                 </div>
                 <div class="card">
-                    <a class="warna" href="./jersey.html">
+                    <a class="warna" href="./jersey.php">
                     <img src="img/curry_association.jpg" alt="">
                     <div class="intro">
                         <h1>Jerseys</h1>
@@ -59,7 +59,7 @@ include 'header.php';
                     </a>
                 </div>
                 <div class="card">
-                    <a class="warna" href="./by_player.html">
+                    <a class="warna" href="./by_player.php">
                     <img src="img/mina1.jpg" alt="">
                     <div class="intro">
                         <h1>Shop By Player</h1>
