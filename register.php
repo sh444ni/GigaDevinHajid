@@ -13,38 +13,38 @@
 <body>
 
     <div class="wrapper">
-        <form action="PDI.php" method="post">
+        <form action="./P_register.php" method="post">
             <h1>Be Part of the Dub Nation Family!</h1>
 
             <div class="input-box">
                 <div class="input-field">
-                    <input type="text" placeholder="Full Name" required>
+                    <input type="text" placeholder="Full Name" name="fullName" required>
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="input-field">
-                    <input type="text" placeholder="Username" required>
+                    <input type="text" placeholder="Username" name="username" required>
                     <i class='bx bxs-user'></i>
                 </div>
             </div>
 
             <div class="input-box">
                 <div class="input-field">
-                    <input type="text" placeholder="Email" required>
+                    <input type="text" placeholder="Email" name="email" required>
                     <i class='bx bxs-envelope'></i>
                 </div>
                 <div class="input-field">
-                    <input type="text" placeholder="Phone Number" required>
+                    <input type="text" placeholder="Phone Number" name="phoneNumber" required>
                     <i class='bx bxs-phone'></i>
                 </div>
             </div>
 
             <div class="input-box">
                 <div class="input-field">
-                    <input type="Number" placeholder="Age" required>
+                    <input type="Number" placeholder="Age" name="age" required>
                     <i class='bx bx-child'></i>
                 </div>
                 <div class="input-field">
-                    <input type="date" placeholder="Birthday" required>
+                    <input type="date" placeholder="Birthday" name="birthday" required>
                     <i class='bx bxs-balloon'></i>
                 </div>
             </div>
@@ -64,11 +64,11 @@
 
             <div class="input-box">
                 <div class="input-field">
-                    <textarea id="address" placeholder="Address" required></textarea>
+                    <textarea id="address" placeholder="Address" name="address" required></textarea>
                     <i class='bx bxs-home' ></i>
                 </div>
                 <div class="input-field">
-                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="Password" name="password" required>
                     <i class='bx bxs-lock-alt'></i>
                 </div>
             </div>

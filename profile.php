@@ -11,6 +11,9 @@
 
 </head>
 <body>
+    <?php 
+include 'header.php';
+?>
     <header class="header">
         <a href="#" class="logo">GSW</a>
         <nav class="navbar">   
