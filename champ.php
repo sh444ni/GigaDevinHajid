@@ -25,7 +25,6 @@ include 'header.php';
                 <h4>Locker Room Long Sleeve</h4>
                 <div>
                     <span>$19</span>
-                    <button>+</button>
                 </div>
             </div>
             <div class="product-card">
@@ -33,7 +32,6 @@ include 'header.php';
                 <h4>Roster Signature T-Shirt</h4>
                 <div>
                     <span>$20</span>
-                    <button>+</button>
                 </div>
             </div>
             <div class="product-card">
@@ -41,7 +39,6 @@ include 'header.php';
                 <h4>Final Buzzer Jersey T-Shirt</h4>
                 <div>
                     <span>$19</span>
-                    <button>+</button>
                 </div>
             </div>
         </section>

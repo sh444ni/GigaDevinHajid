@@ -24,7 +24,6 @@ include 'header.php';
                 <h4>Icon Edition</h4>
                 <div>
                     <span>$159</span>
-                    <button>+</button>
                 </div>
             </div>
             <div class="product-card">
@@ -32,7 +31,6 @@ include 'header.php';
                 <h4>Association Edition</h4>
                 <div>
                     <span>$159</span>
-                    <button>+</button>
                 </div>
             </div>
             <div class="product-card">
@@ -40,7 +38,6 @@ include 'header.php';
                 <h4>2024 NBA All-Star</h4>
                 <div>
                     <span>$149</span>
-                    <button>+</button>
                 </div>
             </div>
         </section>

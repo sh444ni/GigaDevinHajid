@@ -93,24 +93,9 @@ section{
     align-items: center;
 }
 
-.product-card button{
-    background-color: #000;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    font-size: 1em;
-}
-
 .product-card:hover{
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
-}
-
-.product-card:hover button{
-    color: #000;
-    background-color: #fff;
 }
 
 @media screen and (max-width: 576px){

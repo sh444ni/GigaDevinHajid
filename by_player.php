@@ -19,11 +19,6 @@ include 'header.php';
     <div class="container">
 
         <section class="one">
-          
-          <!-- <div class="banner-card">
-            <img src="css/b_by_player.jpg" alt="">
-            <h4>By Player</h4>
-        </div> -->
         
         <div class="product-container">
           <div class="product-card">
@@ -38,7 +33,6 @@ include 'header.php';
             <h4>Icon Edition</h4>
             <div>
                 <span>$299</span>
-                <button>+</button>
             </div>
         </div>
         <div class="product-card">
@@ -46,7 +40,6 @@ include 'header.php';
             <h4>Association Edition</h4>
             <div>
                 <span>$299</span>
-                <button>+</button>
             </div>
         </div>
         <div class="product-card">
@@ -54,7 +47,6 @@ include 'header.php';
             <h4>City Edition</h4>
             <div>
                 <span>$299</span>
-                <button>+</button>
             </div>
         </div>
         </div>
@@ -74,7 +66,6 @@ include 'header.php';
             <h4>Icon Edition</h4>
             <div>
                 <span>$299</span>
-                <button>+</button>
             </div>
         </div>
         <div class="product-card">
@@ -82,7 +73,6 @@ include 'header.php';
             <h4>Association Edition</h4>
             <div>
                 <span>$299</span>
-                <button>+</button>
             </div>
         </div>
         <div class="product-card">
@@ -90,7 +80,6 @@ include 'header.php';
             <h4>City Edition</h4>
             <div>
                 <span>$299</span>
-                <button>+</button>
             </div>
         </div>
         </div>
@@ -109,7 +98,6 @@ include 'header.php';
            <h4>Icon Edition</h4>
            <div>
                <span>$299</span>
-               <button>+</button>
            </div>
        </div>
        <div class="product-card">
@@ -117,7 +105,6 @@ include 'header.php';
            <h4>Association Edition</h4>
            <div>
                <span>$299</span>
-               <button>+</button>
            </div>
        </div>
        <div class="product-card">
@@ -125,7 +112,6 @@ include 'header.php';
            <h4>City Edition</h4>
            <div>
                <span>$299</span>
-               <button>+</button>
            </div>
        </div>
     </section>    
@@ -143,7 +129,6 @@ include 'header.php';
             <h4>Icon Edition</h4>
             <div>
                 <span>$299</span>
-                <button>+</button>
             </div>
         </div>
         <div class="product-card">
@@ -151,7 +136,6 @@ include 'header.php';
             <h4>Association Edition</h4>
             <div>
                 <span>$299</span>
-                <button>+</button>
             </div>
         </div>
         <div class="product-card">
@@ -159,7 +143,6 @@ include 'header.php';
             <h4>City Edition</h4>
             <div>
                 <span>$299</span>
-                <button>+</button>
             </div>
         </div>
      </section>
@@ -177,7 +160,6 @@ include 'header.php';
          <h4>Icon Edition</h4>
          <div>
              <span>$299</span>
-             <button>+</button>
          </div>
      </div>
      <div class="product-card">
@@ -185,7 +167,6 @@ include 'header.php';
          <h4>Association Edition</h4>
          <div>
              <span>$299</span>
-             <button>+</button>
          </div>
      </div>
      <div class="product-card">
@@ -193,7 +174,6 @@ include 'header.php';
          <h4>City Edition</h4>
          <div>
              <span>$299</span>
-             <button>+</button>
          </div>
      </div>
   </section>
