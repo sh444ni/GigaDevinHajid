@@ -3,15 +3,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["username"];
     $password = $_POST["password"];
 
-    // Membaca data dari file users.txt
     $file = fopen("users.txt", "r") or die("Unable to open file!");
     $users = fread($file, filesize("users.txt"));
     fclose($file);
 
-    // Memisahkan setiap baris data pengguna
     $userData = explode("\n", $users);
 
-    // Memeriksa apakah username dan password cocok
     $userFound = false;
     foreach ($userData as $user) {
         $userDetails = explode("|", $user);
