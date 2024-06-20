@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/s_kranjang.css">
+    <link rel="stylesheet" href="css/s_coba.css">
+    <link rel="stylesheet" href="./css/s_sidebar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
 </head>
+
 <body>
+
+<?php 
+include 'header.php';
+?>
 
         <div class="container">
             <div class="center">
@@ -227,6 +234,6 @@
             </div>
         </div>
     
-    <script src="./js/j_kranjang.js"></script>
+        <script src="./js/j_kranjang.js"></script>
 </body>
 </html>

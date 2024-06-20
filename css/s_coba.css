@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
 :root {
     --white: #fff;
     --light: #eeededaf ;
@@ -7,8 +15,10 @@
 
 body {
     background: url('b_login.jpg') no-repeat;
-    font-family: system-ui;
+    width: 100%;
+    font-family:  "Poppins", sans-serif;
     overflow: hidden;
+    padding-top: 5vh;
 }
 
 .container {
@@ -32,7 +42,7 @@ body {
     border-bottom-right-radius: 30px;
     grid-area: cart;
     position: relative;
-    height: 80vh;
+    height: 75vh;
     overflow-y: auto;
     
 }
