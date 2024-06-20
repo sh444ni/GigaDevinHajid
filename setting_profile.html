@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GSW Store Profile</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/s_profile.css">
+    <link rel="stylesheet" href="./css/s_profile_setting.css">
     <link rel="stylesheet" href="./css/s_sidebar.css">
 </head>
 <body>
@@ -32,22 +32,24 @@
                             </div>
                             <div class="form-group">
                                 <label for="long-name">Long Name</label>
-                                <input type="text" class="form-control" id="long-name" value="John Doe">
+                                <input type="text" class="form-control" id="long-name">
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" value="john.doe@example.com">
+                                <input type="email" class="form-control" id="email">
                             </div>
                             <div class="form-group">
                                 <label for="bio">Bio</label>
-                                <textarea class="form-control" id="bio" rows="3">Saya adalah seorang pengembang perangkat lunak yang antusias.</textarea>
+                                <textarea class="form-control" id="bio" rows="3"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Save Changes</button>
+                            <button type="submit" class="btn btn-primary" id="saveChangesBtn">Save Changes</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="./js/j_profile_setting.js"></script>
 </body>
 </html>

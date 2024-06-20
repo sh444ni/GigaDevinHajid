@@ -1,16 +1,4 @@
-<?php
-session_start();
 
-// Cek apakah pengguna sudah login
-if (isset($_SESSION["username"])) {
-    $username = $_SESSION["username"];
-    // Tampilkan pesan selamat datang atau lakukan tindakan lain yang diperlukan
-    echo "Welcome, " . $username . "!";
-    // Atau, Anda dapat mengalihkan pengguna ke halaman lain setelah login
-    // header("Location: dashboard.php");
-    // exit();
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,7 +7,7 @@ if (isset($_SESSION["username"])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GSW Store Login</title>
-    <link rel="stylesheet" href="css/s_login.css">
+    <link rel="stylesheet" href="./css/s_login.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
@@ -45,7 +33,7 @@ if (isset($_SESSION["username"])) {
             <button type="submit" class="btn">Login</button>
 
             <div class="register-link">
-                <p>Don't have an account? <a href="register.php">Register</a></p>
+                <p>Don't have an account? <a href="./register.php">Register</a></p>
             </div>
         </form>
     </div>  

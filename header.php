@@ -1,5 +1,5 @@
 <header class="header">
-        <a href="index.php" class="logo">GSW</a>
+        <a href="./index.php" class="logo">GSW</a>
 
         <nav class="navbar">
             <a href="./about.html">About</a>       
@@ -22,7 +22,7 @@
               </li>
               <hr>
               <li>
-                <a href="./profile.html">
+                <a href="./profile.php">
                   <i class="bx bx-user"></i>
                   <span class="link_name">Profile</span>
                 </a>

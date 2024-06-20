@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $userData = "$fullName|$username|$email|$phoneNumber|$age|$birthday|$address|$password\n";
 
-    $file = fopen("users.txt", "a") or die("Unable to open file!");
+    $file = fopen("./users.txt", "a") or die("Unable to open file!");
     fwrite($file, $userData);
     fclose($file);
 
@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     session_start();
     $_SESSION["username"] = $username;
-    header("Location: login.php");
+    header("Location: ./login.php");
     exit();
 }
 ?>

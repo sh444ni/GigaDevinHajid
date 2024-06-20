@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GSW Store Register</title>
-    <link rel="stylesheet" href="css/s_register.css">
+    <link rel="stylesheet" href="./css/s_register.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
 </head>
 
@@ -48,19 +48,6 @@
                     <i class='bx bxs-balloon'></i>
                 </div>
             </div>
-
-            <!-- 
-            <div class="input-box">
-                <div class="radio-group">
-                    <input type="radio" id="male" name="Gender" value="M" required>
-                    <label for="male">Male</label>
-                    <input type="radio" id="female" name="Gender" value="F">
-                    <label for="female">Female</label>
-                    <input type="radio" id="attack-helicopter" name="Gender" value="HF">
-                    <label for="attack-helicopter">Attack Helicopter</label>
-                </div>
-            </div>
-            -->
 
             <div class="input-box">
                 <div class="input-field">

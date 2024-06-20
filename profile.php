@@ -1,3 +1,7 @@
+<?php 
+include './P_profile.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,15 +9,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GSW Store Profile</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/s_profile.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/s_profile.css">
     <link rel="stylesheet" href="./css/s_sidebar.css">
-
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
 </head>
 <body>
-    <?php 
-include 'header.php';
-?>
+    <?php include './header.php'; ?>
     <header class="header">
         <a href="#" class="logo">GSW</a>
         <nav class="navbar">   
@@ -33,17 +36,21 @@ include 'header.php';
                             <img src="https://via.placeholder.com/150" alt="Foto Profil" class="rounded-circle">
                         </div>
                         <div class="profile-info">
-                            <h5>Long Name</h5>
-                            <p>John Doe</p>
+                            <h5>Full Name</h5>
+                            <p><?php echo htmlspecialchars($fullName); ?></p>
                             <h5>Email</h5>
-                            <p>john.doe@example.com</p>
+                            <p><?php echo htmlspecialchars($email); ?></p>
                             <h5>Bio</h5>
                             <p>Saya adalah seorang pengembang perangkat lunak yang antusias.</p>
+                        </div>
+                        <div class="text-center">
+                            <a href="./setting_profile.html" class="btn btn-primary">Edit Profile</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 </body>
 </html>
