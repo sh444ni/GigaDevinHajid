@@ -9,21 +9,15 @@ include './P_profile.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GSW Store Profile</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/s_profile.css">
+    <link rel="stylesheet" href="./css/s_profilePlz.css">
     <link rel="stylesheet" href="./css/s_sidebar.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     
 </head>
 <body>
     <?php include './header.php'; ?>
-    <header class="header">
-        <a href="#" class="logo">GSW</a>
-        <nav class="navbar">   
-            <a href="./about.html">About</a>
-            <a href="./login.html">Login</a>
-        </nav>
-    </header>
+    
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6">
@@ -53,4 +47,8 @@ include './P_profile.php';
     </div>
 
 </body>
+
+<?php 
+include './footer.php';
+?>
 </html>
