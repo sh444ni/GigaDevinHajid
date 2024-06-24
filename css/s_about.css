@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('b_about.jpg');
+    background-color: blue;
 }
 .wrapper{
     background: transparent;
@@ -22,7 +22,7 @@ body{
 }
 h2{
     text-align: center;
-    color: #fff;
+    color: #ffffff;
 }
 hr{
     width: 100px;
