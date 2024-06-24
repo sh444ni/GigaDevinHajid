@@ -29,7 +29,7 @@
                 <span class="tooltip">Profile</span>
               </li>
               <li>
-                <a href="#">
+                <a href="./setting_profile.php">
                   <i class="bx bx-cog"></i>
                   <span class="link_name">Settings Profile</span>
                 </a>

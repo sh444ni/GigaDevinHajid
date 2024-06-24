@@ -1,5 +1,8 @@
 <?php
-session_start();
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+
 if (!isset($_SESSION["username"])) {
     header("Location: ./login.php");
     exit();
@@ -22,6 +25,9 @@ if ($userInfo === null) {
     exit();
 }
 
+$userId = $_SESSION["username"];
 $fullName = $userInfo[0];
 $email = $userInfo[2];
+$bio = isset($_SESSION['user_bio']) ? $_SESSION['user_bio'] : "No bio available.";
+
 ?>

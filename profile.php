@@ -9,11 +9,11 @@ include './P_profile.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GSW Store Profile</title>
-    <link rel="stylesheet" href="./css/s_profilePlz.css">
-    <link rel="stylesheet" href="./css/s_sidebar.css">
+    <link rel="stylesheet" href="./css/s_profile.css">
+    
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    
+    <link rel="stylesheet" href="./css/s_sidebar.css">
 </head>
 <body>
     <?php include './header.php'; ?>
@@ -35,10 +35,10 @@ include './P_profile.php';
                             <h5>Email</h5>
                             <p><?php echo htmlspecialchars($email); ?></p>
                             <h5>Bio</h5>
-                            <p>Saya adalah seorang pengembang perangkat lunak yang antusias.</p>
+                            <p><p><?php echo htmlspecialchars($bio); ?></p></p>
                         </div>
                         <div class="text-center">
-                            <a href="./setting_profile.html" class="btn btn-primary">Edit Profile</a>
+                            <a href="./setting_profile.php" class="btn btn-primary">Edit Profile</a>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,5 @@ include './P_profile.php';
 
 </body>
 
-<?php 
-include './footer.php';
-?>
+
 </html>
