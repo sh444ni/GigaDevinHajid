@@ -6,8 +6,12 @@
     <title>Team Section | By Code Info</title>
     <link rel="stylesheet" href="./css/s_about.css">
     <link rel="stylesheet" href="./css/s_sidebar.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+<?php 
+include './header.php';
+?>
     <header class="header">
         <a href="#" class="logo">GSW</a>
 

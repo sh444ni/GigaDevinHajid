@@ -2,7 +2,7 @@
         <a href="./index.php" class="logo">GSW</a>
 
         <nav class="navbar">
-            <a href="./about.html">About</a>       
+            <a href="./about.php">About</a>       
             <a href="./login.php">Login</a>
         </nav>
 
